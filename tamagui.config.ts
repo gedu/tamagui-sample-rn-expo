@@ -1,7 +1,9 @@
 import {createTamagui, getConfig} from 'tamagui';
 import {configWithoutAnimations} from './styleres/rimac-config';
+import {animations} from './styleres/rimac-animations';
 
 export const config = createTamagui({
+    animations,
     ...configWithoutAnimations,
 });
 
